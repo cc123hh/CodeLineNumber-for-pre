@@ -1,0 +1,11 @@
+.Pre-Num-Div:before
+{
+	content:attr(num);
+	display:inline-block;
+	list-style: none;
+	text-align: center;
+	width: 2.5em;
+	padding-right: 3px;
+	margin-right: 8px;
+	border-right: 2px solid rgba(255,255,255,0.50);
+}
